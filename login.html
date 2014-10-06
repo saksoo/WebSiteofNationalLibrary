@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Εθνική βιβλιοθήκη της Ελλάδος</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<h1>Εθνική Βιβλιοθήκη της Ελλάδος</h1>
+				<a href="index.html">
+				<img src="head.jpg" alt="Head Image" height="230" width="760" />
+				</a>
+			</div>
+			<div id="nav">
+				<ul>	
+					<li><a href="index.html">Αρχική</a></li>
+					<li><a href="login.html">Είσοδος χρήστη</a></li>
+					<li><a href="signup.html">Δημιουργία λογαριασμού</a></li>
+					<li><a href="#">Καλάθι χρήστη*</a></li>
+					<li><a href="#">Βοήθεια</a></li>
+				</ul>
+				<div id="search">			
+												<form action="anazitisi.php" method="POST">
+												<input type="text" name="keimeno" />
+												<input type="submit" value="Αναζήτηση" />
+												</form>
+				</div>				
+			</div>
+			<div id="main">
+		<!--		<h2>Κεντρικό μενού</h2>		-->
+				<ul>	
+					<li><a href="index.html">Αρχική</a></li>
+					<li><a href="#">Ανακοινώσεις</a></li>
+					<li><a href="sintheti.html">Αναζήτηση</a></li>
+					<li><a href="plirofories.html">Πληροφορίες</a></li>
+					<li><a href="katalogos.html">Κατάλογος</a></li>
+					<li><a href="#">Για βιβλιοθηκονόμους</a></li>
+					<li><a href="#">Για εκδότες</a></li>
+					<li><a href="#">Νέα</a></li>
+				</ul>
+				<img src="logo.jpeg" alt="logo" width="200" height="150" /> 
+				
+			</div>
+			<div id="periexomeno">
+				<p style="font-size:15px;margin:-2;"><a href="index.html">Αρχική</a><span style="color:red;font-size:20px;"> -> </span>Είσοδος χρήστη</p>
+				<h2 style="margin-top:20px;text-align:center;margin-bottom:40px;">Παρακαλούμε εισάγετε τα στοιχεία του λογαριασμού σας :</h2>
+				<form style="margin-left:400px;margin-top:100px;" action="validateusers.php" method="POST" enctype="multipart/form-data">
+				Όνομα χρήστη : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="username"/> <br/><br/>		
+				Κωδικός πρόσβασης : <input type="password" name="password"/> <br/> <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" value="Eίσοδος"/>
+				</form>
+			</div>
+			<div id="footer">
+				<p class="wrario">Ώρες Λειτουργίας : Καθημερινά 08:00-14:00<span style="color:red;margin-left:200px;">*απαιτείται εγγραφή</span></p>
+				<p><a href="index.html">Αρχική&nbsp;&nbsp; </a><a href="#">Επικοινωνία &nbsp; </a><a href="#">  Χάρτης</a></p>
+			</div>
+		</div>
+	</body>
+</html>

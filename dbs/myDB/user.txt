@@ -1,0 +1,8 @@
+Nr#user#pass#email#news#onoma#eponimo#idiotita#epagelma#tautotita#katoikia#poli#tk#tilefono
+inc#str#str#str#str#str#str#str#str#str#str#str#int#int
+0#N/A#N/A#N/A#N/A#N/A#N/A#N/A#N/A#N/A#N/A#N/A#0#0
+1#nick#liappas#0#0#0#0#0#0#0#0#0#0#0
+2#admin#admin#0#0#0#0#0#0#0#0#0#0#0
+3#Kaiser#123456#0#0#0#0#0#0#0#0#0#0#0
+4#giorgos#123456#0#0#0#0#0#0#0#0#0#0#0
+5#eam#eam#0#0#0#0#0#0#0#0#0#0#0
